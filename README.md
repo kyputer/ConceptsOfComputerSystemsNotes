@@ -5,7 +5,7 @@ _Please feel free to edit, contribute, and commit as much as you can!  I cannot 
 * [Syllabus Day](Jan17Wed.md)
 
 * Week 1
-  * [Mon]
+  * [Mon: Defining Performance](notes/Jan17Wed(1).md)
   * [Wed]
   
 * Week 2
