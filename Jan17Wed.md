@@ -1,7 +1,9 @@
 # __Course Overview__
 
-## Credentials
-**REMOVED**
+## Resources
+[MIPS Green Sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)  
+[Ben K. Steele's Class Site](https://www.cs.rit.edu/~bks/250/)  
+[Class Book](https://learn.zybooks.com/zybook/RITCSCI250SteeleSpring2018)\(ZYBooks\)  
 
 ## Grading
 
@@ -29,11 +31,7 @@
 * Hierarchy of Memories
 * Dependability via redundancy
 
-
-## Resources
-[MIPS Green Sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
-
-## Tools
-__RASM__ -> Object Module/.OBJ
-__RLINK__ -> Link Module/.OUT
+## Tools  
+__RASM__ -> Object Module/.OBJ  
+__RLINK__ -> Link Module/.OUT  
 __RSIM__ -> Simulates an R2k(MIPS2K) CPU and Debugs
