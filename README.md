@@ -1,3 +1,35 @@
+The idea of this site is to supplement the learning we are obtaining in the classroom by sharing ideas, notes and our own individual understanding of the concepts(ha) presented to us.
+
+_Please feel free to edit, contribute, and commit as much as you can!  I cannot possibly get everything right and I am certain there are more than a few mistakes in here!_
+
+* [Syllabus Day](Jan17Wed.md)
+
+* Week 1
+  * [Mon]
+  * [Wed]
+  
+* Week 2
+  * [Mon]
+  * [Wed]
+
+* Week 3
+  * [Mon]
+  * [Wed]
+
+* Week 4
+  * [Mon]
+  * [Wed]
+
+* Week 5
+  * [Mon]
+  * [Wed]
+
+* [How to Contribute](#contributing)
+
+
+
+Contributing
+---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/KST123ABC/ConceptsOfComputerSystemsNotes/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -27,10 +59,6 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KST123ABC/ConceptsOfComputerSystemsNotes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
