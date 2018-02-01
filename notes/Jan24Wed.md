@@ -56,34 +56,34 @@ Addi			\$V0,		$Zero,	1
 
 ## Loop
 
-`/* c if else code */`
-`if ( s1 == s2 ) {`
- `s3 = s4 + s5;`
-`} else {`
- `s3 = s4 – s5;`
-`}`
-
-`/* c code in assembly form */`
- if ( s1 != s2 ) goto L1;
- s3 = s4 + s5;
- goto L2;
-`L1:`
- s3 = s4 - s5;
-`L2:`
+`/* c if else code */`  
+`if ( s1 == s2 ) {`  
+ `s3 = s4 + s5;`  
+`} else {`  
+ `s3 = s4 – s5;`  
+`}`  
+  
+`/* c code in assembly form */`  
+ if ( s1 != s2 ) goto L1;  
+ s3 = s4 + s5;  
+ goto L2;  
+`L1:`  
+ s3 = s4 - s5;  
+`L2:`  
 
 ### direct MIPS translation
- 	`bne $s1, $s2, L1` 		# if( s1 != s2 ) goto L1;
- 	`add $s3, $s4, $s5` 	# s3 = s4 + s5;
- 	`j L2` 				# goto L2;
-`L1:`
- 	`sub $s3, $s4, $s5` 	# s3 = s4 – s5;
-`L2:`
+ 	`bne $s1, $s2, L1` 		# if( s1 != s2 ) goto L1;  
+ 	`add $s3, $s4, $s5` 	# s3 = s4 + s5;  
+ 	`j L2` 				# goto L2;  
+`L1:`  
+ 	`sub $s3, $s4, $s5` 	# s3 = s4 – s5;  
+`L2:`  
 
 
 
 ## Conditional Examples
 
-`if ( s1 < s2 ) goto L1;` = `slt $t0, $s1, $s2` `bne $t0, $zero, L1`
-`if ( s5 >= s6 ) goto L3;` = `slt $t2, $s5, $s6` `beq $t2, $zero, L3`
-`if ( s3 > s4 ) goto L2;` = `slt $t1, $s4, $s3` `bne $t1, $zero, L2`
-`if ( s7 <= s8 ) goto L4;` = `slt $t3, $s8, $s7` `beq $t3, $zero, L4`
+`if ( s1 < s2 ) goto L1;` = `slt $t0, $s1, $s2` `bne $t0, $zero, L1`  
+`if ( s5 >= s6 ) goto L3;` = `slt $t2, $s5, $s6` `beq $t2, $zero, L3`  
+`if ( s3 > s4 ) goto L2;` = `slt $t1, $s4, $s3` `bne $t1, $zero, L2`  
+`if ( s7 <= s8 ) goto L4;` = `slt $t3, $s8, $s7` `beq $t3, $zero, L4`  
