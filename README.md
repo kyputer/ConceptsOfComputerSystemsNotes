@@ -10,7 +10,7 @@ _Please feel free to edit, contribute, and commit as much as you can!  I cannot 
   
 * Week 2
   * [Mon]
-  * [Wed]
+  * [Wed: Arrays, Pseudo-Instructions, Branching, and Loops](notes/Jan24Wed.md)
 
 * Week 3
   * [Mon]
@@ -25,4 +25,3 @@ _Please feel free to edit, contribute, and commit as much as you can!  I cannot 
   * [Wed]
 
 * [How to Contribute](docs/mdbasics.md)
-
