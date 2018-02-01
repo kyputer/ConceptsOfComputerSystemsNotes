@@ -2,10 +2,10 @@ The idea of this site is to supplement the learning we are obtaining in the clas
 
 _Please feel free to edit, contribute, and commit as much as you can!  I cannot possibly get everything right and I am certain there are more than a few mistakes in here!_
 
-* [Syllabus Day](Jan17Wed.md)
+* [Syllabus Day](notes/Jan17Wed.md)
 
 * Week 1
-  * [Mon: Defining Performance](notes/Jan17Wed(1).md)
+  * [Mon: Defining Performance](notes/Jan17Wed1.md)
   * [Wed]
   
 * Week 2
