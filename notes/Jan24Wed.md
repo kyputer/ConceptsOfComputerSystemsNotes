@@ -1,5 +1,7 @@
 # Machine Coding Practice
 
+[Lecture Slides 1](https://www.cs.rit.edu/~bks/250/Lectures/02/02-MIPS-1.6up.pdf)
+[Lecture Slides 2](https://www.cs.rit.edu/~bks/250/Lectures/03/03-MIPS-2.6up.pdf)
 [MIPS Green Sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
 
 * OR \$s0, \$t0, \$t1
