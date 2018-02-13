@@ -18,7 +18,7 @@ _Please feel free to edit, contribute, and commit as much as you can!  I cannot 
 
 * Week 4
   * [Mon]
-  * [Wed]
+  * [Wed: Instructions](notes/Feb7Wed.md)
 
 * Week 5
   * [Mon]
